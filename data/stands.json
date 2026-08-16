@@ -1,0 +1,2567 @@
+[
+  {
+    "stand": "K21",
+    "apron": "Aire_T2E_S3",
+    "terminal": "Terminal_2"
+  },
+  {
+    "stand": "F70",
+    "apron": "Aire_T2F",
+    "terminal": "Terminal_2"
+  },
+  {
+    "stand": "P82",
+    "apron": null,
+    "terminal": null
+  },
+  {
+    "stand": "I70",
+    "apron": "Aire_India",
+    "terminal": null
+  },
+  {
+    "stand": "E40",
+    "apron": null,
+    "terminal": null
+  },
+  {
+    "stand": "E15",
+    "apron": null,
+    "terminal": null
+  },
+  {
+    "stand": "K59",
+    "apron": null,
+    "terminal": null
+  },
+  {
+    "stand": "K26",
+    "apron": null,
+    "terminal": null
+  },
+  {
+    "stand": "E01",
+    "apron": null,
+    "terminal": null
+  },
+  {
+    "stand": "P94",
+    "apron": null,
+    "terminal": null
+  },
+  {
+    "stand": "K64",
+    "apron": "Aire_T2E_S4",
+    "terminal": "Terminal_2"
+  },
+  {
+    "stand": "B26",
+    "apron": null,
+    "terminal": null
+  },
+  {
+    "stand": "C10",
+    "apron": "Aire_T2C",
+    "terminal": "Terminal_2"
+  },
+  {
+    "stand": "D12",
+    "apron": "Aire_T2D",
+    "terminal": "Terminal_2"
+  },
+  {
+    "stand": "A18",
+    "apron": "Aire_T2A",
+    "terminal": "Terminal_2"
+  },
+  {
+    "stand": "AT2",
+    "apron": null,
+    "terminal": null
+  },
+  {
+    "stand": "F04",
+    "apron": "Aire_T2F",
+    "terminal": "Terminal_2"
+  },
+  {
+    "stand": "J20",
+    "apron": "Aire_T2G",
+    "terminal": "Terminal_2"
+  },
+  {
+    "stand": "D11",
+    "apron": null,
+    "terminal": null
+  },
+  {
+    "stand": "D06",
+    "apron": null,
+    "terminal": null
+  },
+  {
+    "stand": "U17",
+    "apron": null,
+    "terminal": null
+  },
+  {
+    "stand": "I77",
+    "apron": "Aire_India",
+    "terminal": null
+  },
+  {
+    "stand": "Q17",
+    "apron": "Aire_Quebec",
+    "terminal": "Terminal_3"
+  },
+  {
+    "stand": "S06",
+    "apron": "Aire_T1",
+    "terminal": "Terminal_1"
+  },
+  {
+    "stand": "Q16",
+    "apron": null,
+    "terminal": null
+  },
+  {
+    "stand": "Q10",
+    "apron": null,
+    "terminal": null
+  },
+  {
+    "stand": "E01",
+    "apron": "Aire_T2E_S3",
+    "terminal": "Terminal_2"
+  },
+  {
+    "stand": "I11",
+    "apron": "Aire_India",
+    "terminal": null
+  },
+  {
+    "stand": "I63",
+    "apron": "Aire_India",
+    "terminal": null
+  },
+  {
+    "stand": "F14",
+    "apron": "Aire_T2F",
+    "terminal": "Terminal_2"
+  },
+  {
+    "stand": "J11",
+    "apron": "Aire_T2G",
+    "terminal": "Terminal_2"
+  },
+  {
+    "stand": "I14",
+    "apron": "Aire_India",
+    "terminal": null
+  },
+  {
+    "stand": "F96",
+    "apron": null,
+    "terminal": null
+  },
+  {
+    "stand": "I48",
+    "apron": "Aire_India",
+    "terminal": null
+  },
+  {
+    "stand": "F32",
+    "apron": "Aire_T2F",
+    "terminal": "Terminal_2"
+  },
+  {
+    "stand": "B20",
+    "apron": "Aire_T2B",
+    "terminal": "Terminal_2"
+  },
+  {
+    "stand": "B20",
+    "apron": null,
+    "terminal": null
+  },
+  {
+    "stand": "H07",
+    "apron": "Aire_Hotel",
+    "terminal": null
+  },
+  {
+    "stand": "F70",
+    "apron": null,
+    "terminal": null
+  },
+  {
+    "stand": "F02",
+    "apron": null,
+    "terminal": null
+  },
+  {
+    "stand": "D14",
+    "apron": "Aire_T2D",
+    "terminal": "Terminal_2"
+  },
+  {
+    "stand": "Y05",
+    "apron": "Aire_Yankee",
+    "terminal": null
+  },
+  {
+    "stand": "A14",
+    "apron": null,
+    "terminal": null
+  },
+  {
+    "stand": "L39",
+    "apron": "Aire_T2E_S4",
+    "terminal": "Terminal_2"
+  },
+  {
+    "stand": "X04",
+    "apron": "Aire_T1",
+    "terminal": "Terminal_2"
+  },
+  {
+    "stand": "I30",
+    "apron": "Aire_India",
+    "terminal": null
+  },
+  {
+    "stand": "U16",
+    "apron": "Aire_T1",
+    "terminal": "Terminal_1"
+  },
+  {
+    "stand": "D09",
+    "apron": null,
+    "terminal": null
+  },
+  {
+    "stand": "U17",
+    "apron": "",
+    "terminal": ""
+  },
+  {
+    "stand": "U04",
+    "apron": null,
+    "terminal": null
+  },
+  {
+    "stand": "M17",
+    "apron": null,
+    "terminal": null
+  },
+  {
+    "stand": "M06",
+    "apron": "Aire_Mike",
+    "terminal": "Terminal_1"
+  },
+  {
+    "stand": "F22",
+    "apron": "Aire_T2F",
+    "terminal": "Terminal_2"
+  },
+  {
+    "stand": "K71",
+    "apron": null,
+    "terminal": null
+  },
+  {
+    "stand": "F03",
+    "apron": "Aire_T2E_S3",
+    "terminal": "Terminal_2"
+  },
+  {
+    "stand": "J38",
+    "apron": "Aire_T2G",
+    "terminal": "Terminal_2"
+  },
+  {
+    "stand": "N05",
+    "apron": null,
+    "terminal": null
+  },
+  {
+    "stand": "A14",
+    "apron": "Aire_T2A",
+    "terminal": "Terminal_2"
+  },
+  {
+    "stand": "D20",
+    "apron": "Aire_T2D",
+    "terminal": "Terminal_2"
+  },
+  {
+    "stand": "F82",
+    "apron": null,
+    "terminal": null
+  },
+  {
+    "stand": "F80",
+    "apron": "Aire_T2F",
+    "terminal": "Terminal_2"
+  },
+  {
+    "stand": "I16",
+    "apron": "Aire_India",
+    "terminal": null
+  },
+  {
+    "stand": "E09",
+    "apron": null,
+    "terminal": null
+  },
+  {
+    "stand": "I90",
+    "apron": "Aire_India",
+    "terminal": null
+  },
+  {
+    "stand": "M15",
+    "apron": null,
+    "terminal": null
+  },
+  {
+    "stand": "I24",
+    "apron": "Aire_India",
+    "terminal": null
+  },
+  {
+    "stand": "B22",
+    "apron": "Aire_T2B",
+    "terminal": "Terminal_2"
+  },
+  {
+    "stand": "I25",
+    "apron": "Aire_India",
+    "terminal": null
+  },
+  {
+    "stand": "I67",
+    "apron": "Aire_India",
+    "terminal": null
+  },
+  {
+    "stand": "D24",
+    "apron": null,
+    "terminal": null
+  },
+  {
+    "stand": "J03",
+    "apron": "",
+    "terminal": null
+  },
+  {
+    "stand": "F32",
+    "apron": null,
+    "terminal": null
+  },
+  {
+    "stand": "E21",
+    "apron": "Aire_T2E_S3",
+    "terminal": "Terminal_2"
+  },
+  {
+    "stand": "C08",
+    "apron": "Aire_T2C",
+    "terminal": "Terminal_2"
+  },
+  {
+    "stand": "I79",
+    "apron": "Aire_India",
+    "terminal": null
+  },
+  {
+    "stand": "I83",
+    "apron": "Aire_India",
+    "terminal": null
+  },
+  {
+    "stand": "G14",
+    "apron": "Aire_Golf",
+    "terminal": null
+  },
+  {
+    "stand": "J37",
+    "apron": "Aire_T2G",
+    "terminal": "Terminal_2"
+  },
+  {
+    "stand": "S06",
+    "apron": null,
+    "terminal": null
+  },
+  {
+    "stand": "D20",
+    "apron": null,
+    "terminal": null
+  },
+  {
+    "stand": "L59",
+    "apron": "Aire_T2E_S4",
+    "terminal": "Terminal_2"
+  },
+  {
+    "stand": "F34",
+    "apron": "Aire_T2F",
+    "terminal": "Terminal_2"
+  },
+  {
+    "stand": "I60",
+    "apron": "Aire_India",
+    "terminal": null
+  },
+  {
+    "stand": "Q14",
+    "apron": "Aire_Quebec",
+    "terminal": "Terminal_3"
+  },
+  {
+    "stand": "E05",
+    "apron": null,
+    "terminal": null
+  },
+  {
+    "stand": "I49",
+    "apron": "Aire_India",
+    "terminal": null
+  },
+  {
+    "stand": "I80",
+    "apron": "Aire_India",
+    "terminal": null
+  },
+  {
+    "stand": "I50",
+    "apron": "Aire_India",
+    "terminal": null
+  },
+  {
+    "stand": "I52",
+    "apron": "Aire_India",
+    "terminal": null
+  },
+  {
+    "stand": "X01",
+    "apron": "Aire_Xray",
+    "terminal": null
+  },
+  {
+    "stand": "F08",
+    "apron": "Aire_T2F",
+    "terminal": "Terminal_2"
+  },
+  {
+    "stand": "I04",
+    "apron": "Aire_India",
+    "terminal": null
+  },
+  {
+    "stand": "F09",
+    "apron": "Aire_T2E_S3",
+    "terminal": "Terminal_2"
+  },
+  {
+    "stand": "I71",
+    "apron": "Aire_India",
+    "terminal": null
+  },
+  {
+    "stand": "F84",
+    "apron": "",
+    "terminal": ""
+  },
+  {
+    "stand": "F26",
+    "apron": null,
+    "terminal": null
+  },
+  {
+    "stand": "C10",
+    "apron": null,
+    "terminal": null
+  },
+  {
+    "stand": "F94",
+    "apron": "Aire_T2F",
+    "terminal": "Terminal_2"
+  },
+  {
+    "stand": "J30",
+    "apron": "Aire_T2G",
+    "terminal": "Terminal_2"
+  },
+  {
+    "stand": "U03",
+    "apron": "Aire_T1",
+    "terminal": "Terminal_1"
+  },
+  {
+    "stand": "C04",
+    "apron": "",
+    "terminal": ""
+  },
+  {
+    "stand": "B02",
+    "apron": "Aire_T2B",
+    "terminal": "Terminal_2"
+  },
+  {
+    "stand": "D12",
+    "apron": null,
+    "terminal": null
+  },
+  {
+    "stand": "D05",
+    "apron": null,
+    "terminal": null
+  },
+  {
+    "stand": "D14",
+    "apron": null,
+    "terminal": null
+  },
+  {
+    "stand": "F66",
+    "apron": "Aire_T2F",
+    "terminal": "Terminal_2"
+  },
+  {
+    "stand": "Q21",
+    "apron": "Aire_Quebec",
+    "terminal": "Terminal_3"
+  },
+  {
+    "stand": "I36",
+    "apron": "Aire_India",
+    "terminal": null
+  },
+  {
+    "stand": "K09",
+    "apron": null,
+    "terminal": null
+  },
+  {
+    "stand": "F10",
+    "apron": "Aire_T2F",
+    "terminal": "Terminal_2"
+  },
+  {
+    "stand": "I39",
+    "apron": "Aire_India",
+    "terminal": null
+  },
+  {
+    "stand": "B16",
+    "apron": "Aire_T2B",
+    "terminal": "Terminal_2"
+  },
+  {
+    "stand": "A10",
+    "apron": "Aire_T2A",
+    "terminal": "Terminal_2"
+  },
+  {
+    "stand": "J31",
+    "apron": "Aire_T2G",
+    "terminal": "Terminal_2"
+  },
+  {
+    "stand": "J03",
+    "apron": null,
+    "terminal": null
+  },
+  {
+    "stand": "E38",
+    "apron": "Aire_T2E",
+    "terminal": "Terminal_2"
+  },
+  {
+    "stand": "J33",
+    "apron": "Aire_T2G",
+    "terminal": "Terminal_2"
+  },
+  {
+    "stand": "Q19",
+    "apron": "Aire_Quebec",
+    "terminal": "Terminal_3"
+  },
+  {
+    "stand": "C08",
+    "apron": null,
+    "terminal": null
+  },
+  {
+    "stand": "Q16",
+    "apron": "Aire_Quebec",
+    "terminal": "Terminal_3"
+  },
+  {
+    "stand": "W04",
+    "apron": "Aire_T1",
+    "terminal": "Terminal_1"
+  },
+  {
+    "stand": "F68",
+    "apron": null,
+    "terminal": null
+  },
+  {
+    "stand": "K38",
+    "apron": "Aire_T2E_S4",
+    "terminal": "Terminal_2"
+  },
+  {
+    "stand": "W08",
+    "apron": "Aire_Whiskey",
+    "terminal": null
+  },
+  {
+    "stand": "I54",
+    "apron": "Aire_India",
+    "terminal": null
+  },
+  {
+    "stand": "J39",
+    "apron": "Aire_T2G",
+    "terminal": "Terminal_2"
+  },
+  {
+    "stand": "K70",
+    "apron": null,
+    "terminal": null
+  },
+  {
+    "stand": "C06",
+    "apron": null,
+    "terminal": null
+  },
+  {
+    "stand": "F02",
+    "apron": "Aire_T2F",
+    "terminal": "Terminal_2"
+  },
+  {
+    "stand": "G20",
+    "apron": null,
+    "terminal": null
+  },
+  {
+    "stand": "J12",
+    "apron": "Aire_T2G",
+    "terminal": "Terminal_2"
+  },
+  {
+    "stand": "E30",
+    "apron": "Aire_T2E",
+    "terminal": "Terminal_2"
+  },
+  {
+    "stand": "F94",
+    "apron": null,
+    "terminal": null
+  },
+  {
+    "stand": "M09",
+    "apron": "Aire_Mike",
+    "terminal": null
+  },
+  {
+    "stand": "E14",
+    "apron": null,
+    "terminal": null
+  },
+  {
+    "stand": "I21",
+    "apron": "Aire_India",
+    "terminal": null
+  },
+  {
+    "stand": "I46",
+    "apron": "Aire_India",
+    "terminal": null
+  },
+  {
+    "stand": "D02",
+    "apron": "Aire_T2D",
+    "terminal": "Terminal_2"
+  },
+  {
+    "stand": "L27",
+    "apron": "Aire_T2E_S4",
+    "terminal": "Terminal_2"
+  },
+  {
+    "stand": "F84",
+    "apron": null,
+    "terminal": null
+  },
+  {
+    "stand": "C4A",
+    "apron": "Aire_T2C",
+    "terminal": "Terminal_2"
+  },
+  {
+    "stand": "C06",
+    "apron": "Aire_T2C",
+    "terminal": "Terminal_2"
+  },
+  {
+    "stand": "N10",
+    "apron": null,
+    "terminal": null
+  },
+  {
+    "stand": "Z04",
+    "apron": null,
+    "terminal": null
+  },
+  {
+    "stand": "I85",
+    "apron": "Aire_India",
+    "terminal": null
+  },
+  {
+    "stand": "F90",
+    "apron": "Aire_T2F",
+    "terminal": "Terminal_2"
+  },
+  {
+    "stand": "N09",
+    "apron": null,
+    "terminal": null
+  },
+  {
+    "stand": "F10",
+    "apron": null,
+    "terminal": null
+  },
+  {
+    "stand": "F86",
+    "apron": "Aire_T2F",
+    "terminal": "Terminal_2"
+  },
+  {
+    "stand": "I47",
+    "apron": "Aire_India",
+    "terminal": null
+  },
+  {
+    "stand": "D12",
+    "apron": "",
+    "terminal": ""
+  },
+  {
+    "stand": "J16",
+    "apron": "Aire_T2G",
+    "terminal": "Terminal_2"
+  },
+  {
+    "stand": "I44",
+    "apron": "Aire_India",
+    "terminal": null
+  },
+  {
+    "stand": "I06",
+    "apron": "Aire_India",
+    "terminal": null
+  },
+  {
+    "stand": "J01",
+    "apron": null,
+    "terminal": null
+  },
+  {
+    "stand": "P84",
+    "apron": "Aire_Papa",
+    "terminal": "Terminal_1"
+  },
+  {
+    "stand": "X05",
+    "apron": "Aire_Xray",
+    "terminal": null
+  },
+  {
+    "stand": "PM2",
+    "apron": null,
+    "terminal": null
+  },
+  {
+    "stand": "J06",
+    "apron": "Aire_T2G",
+    "terminal": "Terminal_2"
+  },
+  {
+    "stand": "I82",
+    "apron": "Aire_India",
+    "terminal": null
+  },
+  {
+    "stand": "E20",
+    "apron": "Aire_T2E",
+    "terminal": "Terminal_2"
+  },
+  {
+    "stand": "U14",
+    "apron": null,
+    "terminal": null
+  },
+  {
+    "stand": "E38",
+    "apron": null,
+    "terminal": null
+  },
+  {
+    "stand": "F08",
+    "apron": null,
+    "terminal": null
+  },
+  {
+    "stand": "I65",
+    "apron": "Aire_India",
+    "terminal": null
+  },
+  {
+    "stand": "E26",
+    "apron": "Aire_T2E",
+    "terminal": "Terminal_2"
+  },
+  {
+    "stand": "E40",
+    "apron": "Aire_T2E",
+    "terminal": "Terminal_2"
+  },
+  {
+    "stand": "P72",
+    "apron": null,
+    "terminal": null
+  },
+  {
+    "stand": "B01",
+    "apron": "Aire_T2B",
+    "terminal": "Terminal_2"
+  },
+  {
+    "stand": "F30",
+    "apron": null,
+    "terminal": null
+  },
+  {
+    "stand": "F26",
+    "apron": "Aire_T2F",
+    "terminal": "Terminal_2"
+  },
+  {
+    "stand": "I84",
+    "apron": "Aire_India",
+    "terminal": null
+  },
+  {
+    "stand": "B16",
+    "apron": null,
+    "terminal": null
+  },
+  {
+    "stand": "F84",
+    "apron": "Aire_T2F",
+    "terminal": "Terminal_2"
+  },
+  {
+    "stand": "L53",
+    "apron": "Aire_T2E_S4",
+    "terminal": "Terminal_2"
+  },
+  {
+    "stand": "M08",
+    "apron": "Aire_Mike",
+    "terminal": null
+  },
+  {
+    "stand": "F04",
+    "apron": null,
+    "terminal": null
+  },
+  {
+    "stand": "E15",
+    "apron": "",
+    "terminal": ""
+  },
+  {
+    "stand": "B12",
+    "apron": null,
+    "terminal": null
+  },
+  {
+    "stand": "H22",
+    "apron": "Aire_Hotel",
+    "terminal": ""
+  },
+  {
+    "stand": "A38",
+    "apron": "Aire_T2A",
+    "terminal": "Terminal_2"
+  },
+  {
+    "stand": "J51",
+    "apron": null,
+    "terminal": null
+  },
+  {
+    "stand": "H05",
+    "apron": "Aire_Hotel",
+    "terminal": ""
+  },
+  {
+    "stand": "Q17",
+    "apron": null,
+    "terminal": null
+  },
+  {
+    "stand": "P74",
+    "apron": "Aire_Papa",
+    "terminal": "Terminal_1"
+  },
+  {
+    "stand": "E20",
+    "apron": null,
+    "terminal": null
+  },
+  {
+    "stand": "D24",
+    "apron": "Aire_T2D",
+    "terminal": "Terminal_2"
+  },
+  {
+    "stand": "I37",
+    "apron": "Aire_India",
+    "terminal": null
+  },
+  {
+    "stand": "U11",
+    "apron": "Aire_T1",
+    "terminal": "Terminal_1"
+  },
+  {
+    "stand": "B06",
+    "apron": "Aire_T2B",
+    "terminal": "Terminal_2"
+  },
+  {
+    "stand": "E22",
+    "apron": "Aire_T2E",
+    "terminal": "Terminal_2"
+  },
+  {
+    "stand": "F66",
+    "apron": null,
+    "terminal": null
+  },
+  {
+    "stand": "U16",
+    "apron": null,
+    "terminal": null
+  },
+  {
+    "stand": "D18",
+    "apron": null,
+    "terminal": null
+  },
+  {
+    "stand": "I73",
+    "apron": null,
+    "terminal": null
+  },
+  {
+    "stand": "L71",
+    "apron": "",
+    "terminal": null
+  },
+  {
+    "stand": "A01",
+    "apron": "Aire_T2A",
+    "terminal": "Terminal_2"
+  },
+  {
+    "stand": "F76",
+    "apron": "Aire_T2F",
+    "terminal": "Terminal_2"
+  },
+  {
+    "stand": "L65",
+    "apron": "Aire_T2E_S4",
+    "terminal": "Terminal_2"
+  },
+  {
+    "stand": "K01",
+    "apron": null,
+    "terminal": null
+  },
+  {
+    "stand": "U03",
+    "apron": null,
+    "terminal": null
+  },
+  {
+    "stand": "F86",
+    "apron": null,
+    "terminal": null
+  },
+  {
+    "stand": "I61",
+    "apron": "Aire_India",
+    "terminal": null
+  },
+  {
+    "stand": "U12",
+    "apron": null,
+    "terminal": null
+  },
+  {
+    "stand": "K52",
+    "apron": "Aire_T2E_S4",
+    "terminal": "Terminal_2"
+  },
+  {
+    "stand": "K58",
+    "apron": "Aire_T2E_S4",
+    "terminal": "Terminal_2"
+  },
+  {
+    "stand": "K17",
+    "apron": "Aire_T2E_S3",
+    "terminal": "Terminal_2"
+  },
+  {
+    "stand": "I32",
+    "apron": "Aire_India",
+    "terminal": null
+  },
+  {
+    "stand": "K17",
+    "apron": "",
+    "terminal": ""
+  },
+  {
+    "stand": "F16",
+    "apron": "Aire_T2F",
+    "terminal": "Terminal_2"
+  },
+  {
+    "stand": "K09",
+    "apron": "Aire_T2E_S3",
+    "terminal": "Terminal_2"
+  },
+  {
+    "stand": "U12",
+    "apron": "Aire_T1",
+    "terminal": "Terminal_1"
+  },
+  {
+    "stand": "E18",
+    "apron": "Aire_T2E",
+    "terminal": "Terminal_2"
+  },
+  {
+    "stand": "Q12",
+    "apron": null,
+    "terminal": null
+  },
+  {
+    "stand": "F90",
+    "apron": null,
+    "terminal": null
+  },
+  {
+    "stand": "J14",
+    "apron": null,
+    "terminal": null
+  },
+  {
+    "stand": "Q13",
+    "apron": "Aire_Quebec",
+    "terminal": "Terminal_3"
+  },
+  {
+    "stand": "CFE",
+    "apron": null,
+    "terminal": null
+  },
+  {
+    "stand": "B07",
+    "apron": "Aire_T2B",
+    "terminal": "Terminal_2"
+  },
+  {
+    "stand": "B08",
+    "apron": null,
+    "terminal": null
+  },
+  {
+    "stand": "J21",
+    "apron": "Aire_T2G",
+    "terminal": "Terminal_2"
+  },
+  {
+    "stand": "I91",
+    "apron": "Aire_India",
+    "terminal": null
+  },
+  {
+    "stand": "F76",
+    "apron": null,
+    "terminal": null
+  },
+  {
+    "stand": "G21",
+    "apron": null,
+    "terminal": null
+  },
+  {
+    "stand": "P75",
+    "apron": null,
+    "terminal": null
+  },
+  {
+    "stand": "A05",
+    "apron": "Aire_T2A",
+    "terminal": "Terminal_2"
+  },
+  {
+    "stand": "F20",
+    "apron": "Aire_T2F",
+    "terminal": "Terminal_2"
+  },
+  {
+    "stand": "K53",
+    "apron": "Aire_T2E_S3",
+    "terminal": "Terminal_2"
+  },
+  {
+    "stand": "D08",
+    "apron": "Aire_T2D",
+    "terminal": "Terminal_2"
+  },
+  {
+    "stand": "E25",
+    "apron": "Aire_T2E_S3",
+    "terminal": "Terminal_2"
+  },
+  {
+    "stand": "E27",
+    "apron": null,
+    "terminal": null
+  },
+  {
+    "stand": "I18",
+    "apron": "Aire_India",
+    "terminal": null
+  },
+  {
+    "stand": "N11",
+    "apron": null,
+    "terminal": null
+  },
+  {
+    "stand": "H03",
+    "apron": "Aire_Hotel",
+    "terminal": ""
+  },
+  {
+    "stand": "E21",
+    "apron": null,
+    "terminal": null
+  },
+  {
+    "stand": "J04",
+    "apron": "Aire_T2G",
+    "terminal": "Terminal_2"
+  },
+  {
+    "stand": "P90",
+    "apron": null,
+    "terminal": null
+  },
+  {
+    "stand": "P83",
+    "apron": null,
+    "terminal": null
+  },
+  {
+    "stand": "B05",
+    "apron": "Aire_T2B",
+    "terminal": "Terminal_2"
+  },
+  {
+    "stand": "H09",
+    "apron": "Aire_Hotel",
+    "terminal": ""
+  },
+  {
+    "stand": "N09",
+    "apron": "Aire_November",
+    "terminal": "Terminal_1"
+  },
+  {
+    "stand": "Q11",
+    "apron": null,
+    "terminal": null
+  },
+  {
+    "stand": "F14",
+    "apron": null,
+    "terminal": null
+  },
+  {
+    "stand": "D02",
+    "apron": null,
+    "terminal": null
+  },
+  {
+    "stand": "K76",
+    "apron": "",
+    "terminal": ""
+  },
+  {
+    "stand": "I26",
+    "apron": "Aire_India",
+    "terminal": null
+  },
+  {
+    "stand": "G35",
+    "apron": "Aire_Golf",
+    "terminal": null
+  },
+  {
+    "stand": "H11",
+    "apron": "Aire_Hotel",
+    "terminal": null
+  },
+  {
+    "stand": "M11",
+    "apron": "Aire_Mike",
+    "terminal": null
+  },
+  {
+    "stand": "I40",
+    "apron": "Aire_India",
+    "terminal": null
+  },
+  {
+    "stand": "C04",
+    "apron": null,
+    "terminal": null
+  },
+  {
+    "stand": "K26",
+    "apron": "Aire_T2E_S4",
+    "terminal": "Terminal_2"
+  },
+  {
+    "stand": "B02",
+    "apron": null,
+    "terminal": null
+  },
+  {
+    "stand": "J01",
+    "apron": "Aire_T2G",
+    "terminal": "Terminal_2"
+  },
+  {
+    "stand": "J10",
+    "apron": "Aire_T2G",
+    "terminal": "Terminal_2"
+  },
+  {
+    "stand": "I69",
+    "apron": "Aire_India",
+    "terminal": null
+  },
+  {
+    "stand": "B26",
+    "apron": "Aire_T2B",
+    "terminal": "Terminal_2"
+  },
+  {
+    "stand": "A08",
+    "apron": null,
+    "terminal": null
+  },
+  {
+    "stand": "A34",
+    "apron": null,
+    "terminal": null
+  },
+  {
+    "stand": "D16",
+    "apron": null,
+    "terminal": null
+  },
+  {
+    "stand": "K21",
+    "apron": null,
+    "terminal": null
+  },
+  {
+    "stand": "P72",
+    "apron": "Aire_Papa",
+    "terminal": "Terminal_1"
+  },
+  {
+    "stand": "E17",
+    "apron": "Aire_T2E_S3",
+    "terminal": "Terminal_2"
+  },
+  {
+    "stand": "I10",
+    "apron": "Aire_India",
+    "terminal": null
+  },
+  {
+    "stand": "N10",
+    "apron": "Aire_November",
+    "terminal": "Terminal_1"
+  },
+  {
+    "stand": "F34",
+    "apron": null,
+    "terminal": null
+  },
+  {
+    "stand": "A14",
+    "apron": "",
+    "terminal": ""
+  },
+  {
+    "stand": "D19",
+    "apron": null,
+    "terminal": null
+  },
+  {
+    "stand": "J14",
+    "apron": "Aire_T2G",
+    "terminal": "Terminal_2"
+  },
+  {
+    "stand": "I86",
+    "apron": "Aire_India",
+    "terminal": null
+  },
+  {
+    "stand": "K59",
+    "apron": "Aire_T2E_S3",
+    "terminal": "Terminal_2"
+  },
+  {
+    "stand": "X06",
+    "apron": "Aire_Xray",
+    "terminal": null
+  },
+  {
+    "stand": "J34",
+    "apron": "Aire_T2G",
+    "terminal": "Terminal_2"
+  },
+  {
+    "stand": "I05",
+    "apron": "Aire_India",
+    "terminal": null
+  },
+  {
+    "stand": "D16",
+    "apron": "Aire_T2D",
+    "terminal": "Terminal_2"
+  },
+  {
+    "stand": "N05",
+    "apron": "Aire_November",
+    "terminal": "Terminal_1"
+  },
+  {
+    "stand": "E09",
+    "apron": "Aire_T2E_S3",
+    "terminal": "Terminal_2"
+  },
+  {
+    "stand": "H10",
+    "apron": "Aire_Hotel",
+    "terminal": ""
+  },
+  {
+    "stand": "N08",
+    "apron": "Aire_November",
+    "terminal": "Terminal_1"
+  },
+  {
+    "stand": "B12",
+    "apron": "Aire_T2B",
+    "terminal": "Terminal_2"
+  },
+  {
+    "stand": "F68",
+    "apron": "Aire_T2F",
+    "terminal": "Terminal_2"
+  },
+  {
+    "stand": "N08",
+    "apron": null,
+    "terminal": null
+  },
+  {
+    "stand": "Q01",
+    "apron": "Aire_Quebec",
+    "terminal": "Terminal_3"
+  },
+  {
+    "stand": "H12",
+    "apron": "Aire_Hotel",
+    "terminal": null
+  },
+  {
+    "stand": "K32",
+    "apron": "Aire_T2E_S4",
+    "terminal": "Terminal_2"
+  },
+  {
+    "stand": "B22",
+    "apron": null,
+    "terminal": null
+  },
+  {
+    "stand": "B09",
+    "apron": "Aire_T2B",
+    "terminal": "Terminal_2"
+  },
+  {
+    "stand": "K01",
+    "apron": "Aire_T2E_S3",
+    "terminal": "Terminal_2"
+  },
+  {
+    "stand": "K01",
+    "apron": "",
+    "terminal": ""
+  },
+  {
+    "stand": "F08",
+    "apron": "",
+    "terminal": null
+  },
+  {
+    "stand": "F34",
+    "apron": "",
+    "terminal": ""
+  },
+  {
+    "stand": "P91",
+    "apron": null,
+    "terminal": null
+  },
+  {
+    "stand": "U15",
+    "apron": "Aire_T1",
+    "terminal": "Terminal_1"
+  },
+  {
+    "stand": "E18",
+    "apron": null,
+    "terminal": null
+  },
+  {
+    "stand": "J18",
+    "apron": "Aire_T2G",
+    "terminal": "Terminal_2"
+  },
+  {
+    "stand": "A39",
+    "apron": "Aire_T2A",
+    "terminal": "Terminal_2"
+  },
+  {
+    "stand": "M12",
+    "apron": "Aire_Mike",
+    "terminal": null
+  },
+  {
+    "stand": "F96",
+    "apron": "Aire_T2F",
+    "terminal": "Terminal_2"
+  },
+  {
+    "stand": "PM1",
+    "apron": null,
+    "terminal": null
+  },
+  {
+    "stand": "I75",
+    "apron": "Aire_India",
+    "terminal": null
+  },
+  {
+    "stand": "U10",
+    "apron": null,
+    "terminal": null
+  },
+  {
+    "stand": "I09",
+    "apron": "Aire_India",
+    "terminal": null
+  },
+  {
+    "stand": "K44",
+    "apron": "Aire_T2E_S4",
+    "terminal": "Terminal_2"
+  },
+  {
+    "stand": "D20",
+    "apron": "",
+    "terminal": ""
+  },
+  {
+    "stand": "D09",
+    "apron": "Aire_T2D",
+    "terminal": "Terminal_2"
+  },
+  {
+    "stand": "P90",
+    "apron": "Aire_Papa",
+    "terminal": "Terminal_1"
+  },
+  {
+    "stand": "I27",
+    "apron": "Aire_India",
+    "terminal": null
+  },
+  {
+    "stand": "M07",
+    "apron": "Aire_Mike",
+    "terminal": ""
+  },
+  {
+    "stand": "U13",
+    "apron": null,
+    "terminal": null
+  },
+  {
+    "stand": "D15",
+    "apron": "Aire_T2D",
+    "terminal": "Terminal_2"
+  },
+  {
+    "stand": "E05",
+    "apron": "Aire_T2E_S3",
+    "terminal": "Terminal_2"
+  },
+  {
+    "stand": "E30",
+    "apron": null,
+    "terminal": null
+  },
+  {
+    "stand": "D18",
+    "apron": "Aire_T2D",
+    "terminal": "Terminal_2"
+  },
+  {
+    "stand": "K76",
+    "apron": "Aire_T2E_S4",
+    "terminal": "Terminal_2"
+  },
+  {
+    "stand": "B24",
+    "apron": null,
+    "terminal": null
+  },
+  {
+    "stand": "D08",
+    "apron": null,
+    "terminal": null
+  },
+  {
+    "stand": "U13",
+    "apron": "Aire_T1",
+    "terminal": "Terminal_1"
+  },
+  {
+    "stand": "E14",
+    "apron": "",
+    "terminal": ""
+  },
+  {
+    "stand": "B01",
+    "apron": null,
+    "terminal": null
+  },
+  {
+    "stand": "D19",
+    "apron": "Aire_T2D",
+    "terminal": "Terminal_2"
+  },
+  {
+    "stand": "A09",
+    "apron": "Aire_T2A",
+    "terminal": "Terminal_2"
+  },
+  {
+    "stand": "N03",
+    "apron": "Aire_November",
+    "terminal": "Terminal_1"
+  },
+  {
+    "stand": "A30",
+    "apron": "Aire_T2A",
+    "terminal": "Terminal_2"
+  },
+  {
+    "stand": "R14",
+    "apron": "Aire_Romeo",
+    "terminal": null
+  },
+  {
+    "stand": "M12",
+    "apron": "Aire_Mike",
+    "terminal": ""
+  },
+  {
+    "stand": "K65",
+    "apron": "Aire_T2E_S3",
+    "terminal": "Terminal_2"
+  },
+  {
+    "stand": "M11",
+    "apron": "Aire_Mike",
+    "terminal": ""
+  },
+  {
+    "stand": "X04",
+    "apron": "",
+    "terminal": ""
+  },
+  {
+    "stand": "E25",
+    "apron": null,
+    "terminal": null
+  },
+  {
+    "stand": "I35",
+    "apron": "Aire_India",
+    "terminal": null
+  },
+  {
+    "stand": "H01",
+    "apron": "Aire_Hotel",
+    "terminal": null
+  },
+  {
+    "stand": "I38",
+    "apron": "Aire_India",
+    "terminal": null
+  },
+  {
+    "stand": "D11",
+    "apron": "Aire_T2D",
+    "terminal": "Terminal_2"
+  },
+  {
+    "stand": "P73",
+    "apron": null,
+    "terminal": null
+  },
+  {
+    "stand": "H04",
+    "apron": "Aire_Hotel",
+    "terminal": ""
+  },
+  {
+    "stand": "U14",
+    "apron": "Aire_T1",
+    "terminal": "Terminal_1"
+  },
+  {
+    "stand": "P74",
+    "apron": null,
+    "terminal": null
+  },
+  {
+    "stand": "J31",
+    "apron": null,
+    "terminal": null
+  },
+  {
+    "stand": "I43",
+    "apron": "Aire_India",
+    "terminal": null
+  },
+  {
+    "stand": "PB4",
+    "apron": null,
+    "terminal": null
+  },
+  {
+    "stand": "Z04",
+    "apron": "Aire_T1",
+    "terminal": "Terminal_1"
+  },
+  {
+    "stand": "J13",
+    "apron": "Aire_T2G",
+    "terminal": "Terminal_2"
+  },
+  {
+    "stand": "X07",
+    "apron": "Aire_Xray",
+    "terminal": null
+  },
+  {
+    "stand": "F82",
+    "apron": "Aire_T2F",
+    "terminal": "Terminal_2"
+  },
+  {
+    "stand": "U05",
+    "apron": "Aire_T1",
+    "terminal": "Terminal_1"
+  },
+  {
+    "stand": "Y04",
+    "apron": "Aire_T1",
+    "terminal": "Terminal_1"
+  },
+  {
+    "stand": "J51",
+    "apron": "",
+    "terminal": null
+  },
+  {
+    "stand": "F30",
+    "apron": "Aire_T2F",
+    "terminal": "Terminal_2"
+  },
+  {
+    "stand": "G21",
+    "apron": "Aire_Golf",
+    "terminal": null
+  },
+  {
+    "stand": "L53",
+    "apron": null,
+    "terminal": null
+  },
+  {
+    "stand": "L33",
+    "apron": "Aire_T2E_S4",
+    "terminal": "Terminal_2"
+  },
+  {
+    "stand": "F09",
+    "apron": null,
+    "terminal": null
+  },
+  {
+    "stand": "E24",
+    "apron": null,
+    "terminal": null
+  },
+  {
+    "stand": "E22",
+    "apron": null,
+    "terminal": null
+  },
+  {
+    "stand": "I42",
+    "apron": "Aire_India",
+    "terminal": null
+  },
+  {
+    "stand": "L71",
+    "apron": "Aire_T2E_S4",
+    "terminal": "Terminal_2"
+  },
+  {
+    "stand": "L59",
+    "apron": "",
+    "terminal": null
+  },
+  {
+    "stand": "F15",
+    "apron": "Aire_T2E_S3",
+    "terminal": "Terminal_2"
+  },
+  {
+    "stand": "J41",
+    "apron": "Aire_T2G",
+    "terminal": "Terminal_2"
+  },
+  {
+    "stand": "X05",
+    "apron": null,
+    "terminal": null
+  },
+  {
+    "stand": "Q19",
+    "apron": null,
+    "terminal": null
+  },
+  {
+    "stand": "M07",
+    "apron": "Aire_Mike",
+    "terminal": null
+  },
+  {
+    "stand": "N01",
+    "apron": "Aire_November",
+    "terminal": "Terminal_1"
+  },
+  {
+    "stand": "E18",
+    "apron": "",
+    "terminal": null
+  },
+  {
+    "stand": "B03",
+    "apron": "Aire_T2B",
+    "terminal": "Terminal_2"
+  },
+  {
+    "stand": "K58",
+    "apron": null,
+    "terminal": null
+  },
+  {
+    "stand": "E24",
+    "apron": "Aire_T2E",
+    "terminal": "Terminal_2"
+  },
+  {
+    "stand": "E20",
+    "apron": "",
+    "terminal": null
+  },
+  {
+    "stand": "X04",
+    "apron": null,
+    "terminal": null
+  },
+  {
+    "stand": "N11",
+    "apron": "Aire_November",
+    "terminal": "Terminal_1"
+  },
+  {
+    "stand": "K76",
+    "apron": null,
+    "terminal": null
+  },
+  {
+    "stand": "K70",
+    "apron": "Aire_T2E_S4",
+    "terminal": "Terminal_2"
+  },
+  {
+    "stand": "J12",
+    "apron": null,
+    "terminal": null
+  },
+  {
+    "stand": "G35",
+    "apron": "Aire_Golf",
+    "terminal": ""
+  },
+  {
+    "stand": "X06",
+    "apron": "Aire_Xray",
+    "terminal": ""
+  },
+  {
+    "stand": "B08",
+    "apron": "Aire_T2B",
+    "terminal": "Terminal_2"
+  },
+  {
+    "stand": "G31",
+    "apron": "Aire_Golf",
+    "terminal": null
+  },
+  {
+    "stand": "A03",
+    "apron": "Aire_T2A",
+    "terminal": "Terminal_2"
+  },
+  {
+    "stand": "Q06",
+    "apron": "Aire_Quebec",
+    "terminal": "Terminal_3"
+  },
+  {
+    "stand": "B03",
+    "apron": null,
+    "terminal": null
+  },
+  {
+    "stand": "W08",
+    "apron": "Aire_Whiskey",
+    "terminal": ""
+  },
+  {
+    "stand": "H09",
+    "apron": "Aire_Hotel",
+    "terminal": null
+  },
+  {
+    "stand": "M14",
+    "apron": null,
+    "terminal": null
+  },
+  {
+    "stand": "F16",
+    "apron": null,
+    "terminal": null
+  },
+  {
+    "stand": "J39",
+    "apron": null,
+    "terminal": null
+  },
+  {
+    "stand": "M15",
+    "apron": "Aire_Mike",
+    "terminal": "Terminal_1"
+  },
+  {
+    "stand": "S18",
+    "apron": null,
+    "terminal": null
+  },
+  {
+    "stand": "Q06",
+    "apron": null,
+    "terminal": null
+  },
+  {
+    "stand": "AT5",
+    "apron": null,
+    "terminal": null
+  },
+  {
+    "stand": "Q01",
+    "apron": null,
+    "terminal": null
+  },
+  {
+    "stand": "U10",
+    "apron": "Aire_T1",
+    "terminal": "Terminal_1"
+  },
+  {
+    "stand": "K71",
+    "apron": "Aire_T2E_S3",
+    "terminal": "Terminal_2"
+  },
+  {
+    "stand": "U15",
+    "apron": null,
+    "terminal": null
+  },
+  {
+    "stand": "J20",
+    "apron": null,
+    "terminal": null
+  },
+  {
+    "stand": "D03",
+    "apron": "Aire_T2D",
+    "terminal": "Terminal_2"
+  },
+  {
+    "stand": "X01",
+    "apron": "Aire_Xray",
+    "terminal": ""
+  },
+  {
+    "stand": "J53",
+    "apron": "",
+    "terminal": ""
+  },
+  {
+    "stand": "AT3",
+    "apron": null,
+    "terminal": null
+  },
+  {
+    "stand": "D06",
+    "apron": "Aire_T2D",
+    "terminal": "Terminal_2"
+  },
+  {
+    "stand": "L27",
+    "apron": null,
+    "terminal": null
+  },
+  {
+    "stand": "Z09",
+    "apron": null,
+    "terminal": null
+  },
+  {
+    "stand": "AT9",
+    "apron": null,
+    "terminal": null
+  },
+  {
+    "stand": "AT7",
+    "apron": null,
+    "terminal": null
+  },
+  {
+    "stand": "AT6",
+    "apron": null,
+    "terminal": null
+  },
+  {
+    "stand": "L33",
+    "apron": null,
+    "terminal": null
+  },
+  {
+    "stand": "AT8",
+    "apron": null,
+    "terminal": null
+  },
+  {
+    "stand": "A04",
+    "apron": null,
+    "terminal": null
+  },
+  {
+    "stand": "J57",
+    "apron": "",
+    "terminal": ""
+  },
+  {
+    "stand": "AT4",
+    "apron": null,
+    "terminal": null
+  },
+  {
+    "stand": "AT1",
+    "apron": null,
+    "terminal": null
+  },
+  {
+    "stand": "B11",
+    "apron": null,
+    "terminal": null
+  },
+  {
+    "stand": "U04",
+    "apron": "Aire_T1",
+    "terminal": "Terminal_1"
+  },
+  {
+    "stand": "P81",
+    "apron": "Aire_Papa",
+    "terminal": "Terminal_1"
+  },
+  {
+    "stand": "I62",
+    "apron": "Aire_India",
+    "terminal": null
+  },
+  {
+    "stand": "P73",
+    "apron": "Aire_Papa",
+    "terminal": "Terminal_1"
+  },
+  {
+    "stand": "J16",
+    "apron": null,
+    "terminal": null
+  },
+  {
+    "stand": "J41",
+    "apron": null,
+    "terminal": null
+  },
+  {
+    "stand": "E26",
+    "apron": null,
+    "terminal": null
+  },
+  {
+    "stand": "J53",
+    "apron": null,
+    "terminal": null
+  },
+  {
+    "stand": "Q03",
+    "apron": "Aire_Quebec",
+    "terminal": "Terminal_3"
+  },
+  {
+    "stand": "Q12",
+    "apron": "Aire_Quebec",
+    "terminal": "Terminal_3"
+  },
+  {
+    "stand": "J55",
+    "apron": "",
+    "terminal": null
+  },
+  {
+    "stand": "U11",
+    "apron": null,
+    "terminal": null
+  },
+  {
+    "stand": "J05",
+    "apron": "Aire_T2G",
+    "terminal": "Terminal_2"
+  },
+  {
+    "stand": "N04",
+    "apron": "Aire_November",
+    "terminal": "Terminal_1"
+  },
+  {
+    "stand": "Y01",
+    "apron": "Aire_Yankee",
+    "terminal": null
+  },
+  {
+    "stand": "E29",
+    "apron": null,
+    "terminal": null
+  },
+  {
+    "stand": "H30",
+    "apron": "Aire_Hotel",
+    "terminal": null
+  },
+  {
+    "stand": "K38",
+    "apron": null,
+    "terminal": null
+  },
+  {
+    "stand": "H01",
+    "apron": "Aire_Hotel",
+    "terminal": ""
+  },
+  {
+    "stand": "D16",
+    "apron": "",
+    "terminal": ""
+  },
+  {
+    "stand": "J57",
+    "apron": "",
+    "terminal": null
+  },
+  {
+    "stand": "AT6",
+    "apron": "Aire_Quebec",
+    "terminal": "Terminal_3"
+  },
+  {
+    "stand": "N73",
+    "apron": null,
+    "terminal": null
+  },
+  {
+    "stand": "Y04",
+    "apron": null,
+    "terminal": null
+  },
+  {
+    "stand": "Q09",
+    "apron": "Aire_Quebec",
+    "terminal": "Terminal_3"
+  },
+  {
+    "stand": "L59",
+    "apron": null,
+    "terminal": null
+  },
+  {
+    "stand": "A34",
+    "apron": "",
+    "terminal": ""
+  },
+  {
+    "stand": "Q21",
+    "apron": null,
+    "terminal": null
+  },
+  {
+    "stand": "Q14",
+    "apron": null,
+    "terminal": null
+  },
+  {
+    "stand": "G23",
+    "apron": null,
+    "terminal": null
+  },
+  {
+    "stand": "L71",
+    "apron": null,
+    "terminal": null
+  },
+  {
+    "stand": "A39",
+    "apron": null,
+    "terminal": null
+  },
+  {
+    "stand": "D15",
+    "apron": null,
+    "terminal": null
+  },
+  {
+    "stand": "Z03",
+    "apron": null,
+    "terminal": null
+  },
+  {
+    "stand": "D08",
+    "apron": "",
+    "terminal": ""
+  },
+  {
+    "stand": "F03",
+    "apron": null,
+    "terminal": null
+  },
+  {
+    "stand": "J55",
+    "apron": "",
+    "terminal": ""
+  },
+  {
+    "stand": "H12",
+    "apron": "Aire_Hotel",
+    "terminal": ""
+  },
+  {
+    "stand": "H10",
+    "apron": "Aire_Hotel",
+    "terminal": null
+  },
+  {
+    "stand": "B10",
+    "apron": "Aire_T2B",
+    "terminal": "Terminal_2"
+  },
+  {
+    "stand": "Z03",
+    "apron": "Aire_Zulu",
+    "terminal": null
+  },
+  {
+    "stand": "A18",
+    "apron": null,
+    "terminal": null
+  },
+  {
+    "stand": "K17",
+    "apron": null,
+    "terminal": null
+  },
+  {
+    "stand": "A10",
+    "apron": null,
+    "terminal": null
+  },
+  {
+    "stand": "D24",
+    "apron": "",
+    "terminal": ""
+  },
+  {
+    "stand": "B16",
+    "apron": "",
+    "terminal": ""
+  },
+  {
+    "stand": "A08",
+    "apron": "Aire_T2A",
+    "terminal": "Terminal_2"
+  },
+  {
+    "stand": "B10",
+    "apron": null,
+    "terminal": null
+  },
+  {
+    "stand": "S18",
+    "apron": "Aire_T1",
+    "terminal": "Terminal_1"
+  },
+  {
+    "stand": "D03",
+    "apron": null,
+    "terminal": null
+  },
+  {
+    "stand": "A09",
+    "apron": null,
+    "terminal": null
+  },
+  {
+    "stand": "K64",
+    "apron": null,
+    "terminal": null
+  },
+  {
+    "stand": "H02",
+    "apron": "Aire_Hotel",
+    "terminal": null
+  },
+  {
+    "stand": "J51",
+    "apron": "",
+    "terminal": ""
+  },
+  {
+    "stand": "K52",
+    "apron": null,
+    "terminal": null
+  },
+  {
+    "stand": "H04",
+    "apron": "Aire_Hotel",
+    "terminal": null
+  },
+  {
+    "stand": "K53",
+    "apron": null,
+    "terminal": null
+  },
+  {
+    "stand": "X05",
+    "apron": "Aire_Xray",
+    "terminal": ""
+  },
+  {
+    "stand": "F30",
+    "apron": "",
+    "terminal": null
+  },
+  {
+    "stand": "Z09",
+    "apron": "Aire_Zulu",
+    "terminal": null
+  },
+  {
+    "stand": "K70",
+    "apron": "",
+    "terminal": null
+  },
+  {
+    "stand": "J03",
+    "apron": "Aire_T2G",
+    "terminal": "Terminal_2"
+  },
+  {
+    "stand": "H08",
+    "apron": "Aire_Hotel",
+    "terminal": null
+  },
+  {
+    "stand": "Q10",
+    "apron": "Aire_Quebec",
+    "terminal": "Terminal_3"
+  },
+  {
+    "stand": "Q16",
+    "apron": "",
+    "terminal": ""
+  },
+  {
+    "stand": "H11",
+    "apron": "Aire_Hotel",
+    "terminal": ""
+  },
+  {
+    "stand": "I34",
+    "apron": "Aire_India",
+    "terminal": null
+  },
+  {
+    "stand": "E14",
+    "apron": "",
+    "terminal": null
+  },
+  {
+    "stand": "L65",
+    "apron": null,
+    "terminal": null
+  },
+  {
+    "stand": "F14",
+    "apron": "",
+    "terminal": null
+  },
+  {
+    "stand": "K44",
+    "apron": null,
+    "terminal": null
+  },
+  {
+    "stand": "J57",
+    "apron": null,
+    "terminal": null
+  },
+  {
+    "stand": "K59",
+    "apron": "",
+    "terminal": null
+  },
+  {
+    "stand": "E05",
+    "apron": "",
+    "terminal": null
+  },
+  {
+    "stand": "Q20",
+    "apron": "Aire_Quebec",
+    "terminal": "Terminal_3"
+  },
+  {
+    "stand": "L27",
+    "apron": "",
+    "terminal": null
+  },
+  {
+    "stand": "J55",
+    "apron": null,
+    "terminal": null
+  },
+  {
+    "stand": "E01",
+    "apron": "",
+    "terminal": null
+  },
+  {
+    "stand": "H07",
+    "apron": "Aire_Hotel",
+    "terminal": ""
+  },
+  {
+    "stand": "D15",
+    "apron": "",
+    "terminal": null
+  },
+  {
+    "stand": "F68",
+    "apron": "",
+    "terminal": ""
+  },
+  {
+    "stand": "P91",
+    "apron": "",
+    "terminal": ""
+  },
+  {
+    "stand": "H02",
+    "apron": "Aire_Hotel",
+    "terminal": ""
+  },
+  {
+    "stand": "D05",
+    "apron": "",
+    "terminal": null
+  },
+  {
+    "stand": "E22",
+    "apron": "",
+    "terminal": null
+  },
+  {
+    "stand": "D03",
+    "apron": "",
+    "terminal": null
+  },
+  {
+    "stand": "F26",
+    "apron": "",
+    "terminal": null
+  },
+  {
+    "stand": "B01",
+    "apron": "",
+    "terminal": ""
+  },
+  {
+    "stand": "J01",
+    "apron": "",
+    "terminal": null
+  },
+  {
+    "stand": "F70",
+    "apron": "",
+    "terminal": null
+  },
+  {
+    "stand": "B06",
+    "apron": null,
+    "terminal": null
+  },
+  {
+    "stand": "C12",
+    "apron": "Aire_T2C",
+    "terminal": "Terminal_2"
+  },
+  {
+    "stand": "G31",
+    "apron": "Aire_Golf",
+    "terminal": ""
+  },
+  {
+    "stand": "F76",
+    "apron": "",
+    "terminal": ""
+  },
+  {
+    "stand": "K09",
+    "apron": "",
+    "terminal": null
+  },
+  {
+    "stand": "B24",
+    "apron": "Aire_T2B",
+    "terminal": "Terminal_2"
+  },
+  {
+    "stand": "R01",
+    "apron": null,
+    "terminal": null
+  },
+  {
+    "stand": "H03",
+    "apron": "Aire_Hotel",
+    "terminal": null
+  },
+  {
+    "stand": "H05",
+    "apron": "Aire_Hotel",
+    "terminal": null
+  },
+  {
+    "stand": "K01",
+    "apron": "",
+    "terminal": null
+  },
+  {
+    "stand": "D09",
+    "apron": "",
+    "terminal": ""
+  },
+  {
+    "stand": "H08",
+    "apron": "Aire_Hotel",
+    "terminal": ""
+  }
+]

@@ -1,0 +1,220 @@
+<div class="mb-6">
+  <h1 class="text-xl">Stands &amp; Assignments</h1>
+  <p class="text-sm text-slate-500">Browse stands, review occupancy, and create new assignments.</p>
+</div>
+
+<section class="grid items-start gap-5 lg:grid-cols-[240px_1fr]">
+  <div class="card sticky top-[72px] p-4">
+    <h2 class="mb-3 text-sm font-semibold tracking-wide text-slate-600 uppercase">Stands</h2>
+    @if (standsService.loading()) {
+      <div class="skeleton h-[300px]"></div>
+    } @else if (standsService.error()) {
+      <p class="banner banner-error">{{ standsService.error() }}</p>
+    }
+    <ul class="flex max-h-[65vh] flex-col gap-1 overflow-y-auto">
+      <li>
+        <button
+          type="button"
+          class="w-full rounded-md border border-transparent px-3 py-2 text-left transition hover:bg-slate-50"
+          [class.bg-blue-50]="selectedStandId() === null"
+          [class.border-blue-200]="selectedStandId() === null"
+          (click)="onStandFilterChange('')"
+        >
+          All stands
+        </button>
+      </li>
+      @for (stand of standsService.stands(); track stand.stand) {
+        <li>
+          <button
+            type="button"
+            class="flex w-full flex-col items-start gap-0.5 rounded-md border border-transparent px-3 py-2 text-left transition hover:bg-slate-50"
+            [class.bg-blue-50]="selectedStandId() === stand.stand"
+            [class.border-blue-200]="selectedStandId() === stand.stand"
+            (click)="onStandFilterChange(stand.stand)"
+          >
+            <span class="font-mono text-sm font-semibold">{{ stand.stand }}</span>
+            <small class="text-xs text-slate-500">{{ stand.apron || '—' }} / {{ stand.terminal || '—' }}</small>
+          </button>
+        </li>
+      }
+    </ul>
+  </div>
+
+  <div class="flex flex-col gap-5">
+    <div class="card p-5">
+      <div class="mb-4 flex flex-wrap items-start justify-between gap-3">
+        <h2 class="m-0 text-sm font-semibold tracking-wide text-slate-600 uppercase">
+          Assignments
+          @if (selectedStandId()) {
+            <span class="font-semibold tracking-normal text-blue-600 normal-case">— {{ selectedStandId() }}</span>
+          }
+        </h2>
+        <div class="flex items-end gap-2">
+          <div class="field shrink-0">
+            <label class="field-label" for="windowFrom">From</label>
+            <input
+              id="windowFrom"
+              class="input"
+              type="datetime-local"
+              [ngModel]="windowFrom()"
+              (ngModelChange)="windowFrom.set($event); onWindowChange()"
+            />
+          </div>
+          <div class="field shrink-0">
+            <label class="field-label" for="windowTo">To</label>
+            <input
+              id="windowTo"
+              class="input"
+              type="datetime-local"
+              [ngModel]="windowTo()"
+              (ngModelChange)="windowTo.set($event); onWindowChange()"
+            />
+          </div>
+          @if (selectedStandId() || windowFrom() || windowTo()) {
+            <button type="button" class="btn" (click)="clearFilters()">Clear filters</button>
+          }
+        </div>
+      </div>
+
+      @if (standAssignmentsService.loading()) {
+        <div class="skeleton h-40"></div>
+      } @else if (standAssignmentsService.error()) {
+        <p class="banner banner-error">{{ standAssignmentsService.error() }}</p>
+      } @else if (standAssignmentsService.assignments().length === 0) {
+        <div class="empty-state">No assignments match the current filters.</div>
+      } @else {
+        <div class="overflow-x-auto">
+          <table class="w-full border-collapse text-sm">
+            <thead>
+              <tr>
+                <th class="border-b border-slate-200 px-3 py-2 text-left text-xs tracking-wide text-slate-400 uppercase">
+                  Stand
+                </th>
+                <th class="border-b border-slate-200 px-3 py-2 text-left text-xs tracking-wide text-slate-400 uppercase">
+                  Flight
+                </th>
+                <th class="border-b border-slate-200 px-3 py-2 text-left text-xs tracking-wide text-slate-400 uppercase">
+                  From
+                </th>
+                <th class="border-b border-slate-200 px-3 py-2 text-left text-xs tracking-wide text-slate-400 uppercase">
+                  To
+                </th>
+                <th class="border-b border-slate-200 px-3 py-2 text-left text-xs tracking-wide text-slate-400 uppercase">
+                  Remarks
+                </th>
+              </tr>
+            </thead>
+            <tbody>
+              @for (assignment of standAssignmentsService.assignments(); track assignment.id) {
+                <tr>
+                  <td class="border-b border-slate-100 px-3 py-2 font-mono font-semibold last:border-0">
+                    {{ assignment.standId }}
+                  </td>
+                  <td class="border-b border-slate-100 px-3 py-2">
+                    {{ assignment.flightPlan?.calculatedCallsign || assignment.flightPlanId }}
+                  </td>
+                  <td class="border-b border-slate-100 px-3 py-2">{{ assignment.fromTime | date: 'short' }}</td>
+                  <td class="border-b border-slate-100 px-3 py-2">{{ assignment.toTime | date: 'short' }}</td>
+                  <td class="border-b border-slate-100 px-3 py-2 text-slate-500">{{ assignment.remarks || '—' }}</td>
+                </tr>
+              }
+            </tbody>
+          </table>
+        </div>
+      }
+    </div>
+
+    <div class="card p-5">
+      <h2 class="mb-3 text-sm font-semibold tracking-wide text-slate-600 uppercase">Create assignment</h2>
+      <form class="grid max-w-[460px] gap-3" (ngSubmit)="onSubmit()">
+        <div class="field">
+          <label class="field-label" for="flightPlanId">Flight plan</label>
+          <select
+            id="flightPlanId"
+            class="input"
+            [ngModel]="formFlightPlanId()"
+            (ngModelChange)="formFlightPlanId.set($event)"
+            name="flightPlanId"
+            required
+          >
+            <option [ngValue]="null">Select a flight plan…</option>
+            @for (fp of flightPlansService.flightPlans(); track fp.id) {
+              <option [ngValue]="fp.id">
+                {{ fp.calculatedCallsign }} ({{ fp.flightPlanType }}, {{ fp.originDate }})
+              </option>
+            }
+          </select>
+        </div>
+
+        <div class="field">
+          <label class="field-label" for="standId">Stand</label>
+          <select
+            id="standId"
+            class="input"
+            [ngModel]="formStandId()"
+            (ngModelChange)="formStandId.set($event)"
+            name="standId"
+            required
+          >
+            <option value="">Select a stand…</option>
+            @for (stand of standsService.stands(); track stand.stand) {
+              <option [value]="stand.stand">{{ stand.stand }}</option>
+            }
+          </select>
+        </div>
+
+        <div class="grid grid-cols-2 gap-3">
+          <div class="field">
+            <label class="field-label" for="fromTime">From</label>
+            <input
+              id="fromTime"
+              class="input"
+              type="datetime-local"
+              [ngModel]="formFromTime()"
+              (ngModelChange)="formFromTime.set($event)"
+              name="fromTime"
+              required
+            />
+          </div>
+
+          <div class="field">
+            <label class="field-label" for="toTime">To</label>
+            <input
+              id="toTime"
+              class="input"
+              type="datetime-local"
+              [ngModel]="formToTime()"
+              (ngModelChange)="formToTime.set($event)"
+              name="toTime"
+              required
+            />
+          </div>
+        </div>
+
+        <div class="field">
+          <label class="field-label" for="remarks">Remarks</label>
+          <input
+            id="remarks"
+            class="input"
+            type="text"
+            placeholder="Optional"
+            [ngModel]="formRemarks()"
+            (ngModelChange)="formRemarks.set($event)"
+            name="remarks"
+          />
+        </div>
+
+        <button type="submit" class="btn btn-primary mt-1 w-fit" [disabled]="standAssignmentsService.creating()">
+          {{ standAssignmentsService.creating() ? 'Creating…' : 'Create assignment' }}
+        </button>
+
+        @if (standAssignmentsService.createError()) {
+          <p class="banner banner-error">{{ standAssignmentsService.createError() }}</p>
+        }
+        @if (createSuccess()) {
+          <p class="banner banner-success">Assignment created.</p>
+        }
+      </form>
+    </div>
+  </div>
+</section>

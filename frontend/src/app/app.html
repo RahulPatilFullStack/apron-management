@@ -1,0 +1,44 @@
+<header class="sticky top-0 z-10 border-b border-navy-light bg-navy">
+  <div class="mx-auto flex h-14 max-w-6xl items-center gap-8 px-5">
+    <a
+      class="flex items-center gap-2 rounded-md text-white no-underline focus-visible:outline-none"
+      routerLink="/"
+    >
+      <span class="flex h-7 w-7 items-center justify-center rounded-md bg-safety text-white" aria-hidden="true">
+        <svg viewBox="0 0 24 24" width="17" height="17" xmlns="http://www.w3.org/2000/svg">
+          <path
+            d="M20 4 14 20l-3.5-7.5L3 9Z"
+            fill="currentColor"
+            stroke="currentColor"
+            stroke-width="1.4"
+            stroke-linejoin="round"
+          />
+          <path d="M20 4 10.5 12.5" stroke="#c2410c" stroke-width="1.4" stroke-linecap="round" />
+        </svg>
+      </span>
+      <span class="text-[0.98rem] font-bold tracking-tight">Apron</span>
+    </a>
+    <nav class="flex gap-4">
+      <a
+        class="flex h-14 items-center border-b-2 border-transparent text-sm font-medium text-slate-400
+          no-underline transition-colors hover:text-white focus-visible:border-safety focus-visible:text-white focus-visible:outline-none"
+        routerLink="/flight-plans"
+        routerLinkActive="!border-safety !text-white"
+      >
+        Flight Plans
+      </a>
+      <a
+        class="flex h-14 items-center border-b-2 border-transparent text-sm font-medium text-slate-400
+          no-underline transition-colors hover:text-white focus-visible:border-safety focus-visible:text-white focus-visible:outline-none"
+        routerLink="/stands"
+        routerLinkActive="!border-safety !text-white"
+      >
+        Stands &amp; Assignments
+      </a>
+    </nav>
+  </div>
+</header>
+
+<main class="mx-auto max-w-6xl px-5 py-8 pb-12">
+  <router-outlet />
+</main>

@@ -1,0 +1,71 @@
+<div class="mb-6">
+  <h1 class="text-xl">Flight Plans</h1>
+  <p class="text-sm text-slate-500">Search and filter arrivals, departures, and tow movements.</p>
+</div>
+
+<section class="card mb-6 flex gap-3 p-3">
+  <div class="relative flex-1">
+    <svg
+      class="pointer-events-none absolute top-1/2 left-3 -translate-y-1/2 text-slate-400"
+      viewBox="0 0 24 24"
+      width="16"
+      height="16"
+      aria-hidden="true"
+    >
+      <path
+        d="m21 21-4.35-4.35M19 11a8 8 0 1 1-16 0 8 8 0 0 1 16 0Z"
+        fill="none"
+        stroke="currentColor"
+        stroke-width="1.8"
+        stroke-linecap="round"
+      />
+    </svg>
+    <input
+      class="input pl-9"
+      type="search"
+      placeholder="Search callsign, carrier, flight number, adep/ades…"
+      [ngModel]="flightPlansService.searchTerm()"
+      (ngModelChange)="onSearchChange($event)"
+    />
+  </div>
+  <select
+    class="input w-auto min-w-[180px]"
+    [ngModel]="flightPlansService.flightPlanTypeFilter() ?? ''"
+    (ngModelChange)="onTypeChange($event)"
+  >
+    <option value="">All types</option>
+    @for (type of flightPlanTypes; track type) {
+      <option [value]="type">{{ type }}</option>
+    }
+  </select>
+</section>
+
+@if (flightPlansService.loading()) {
+  <div class="grid grid-cols-[repeat(auto-fill,minmax(240px,1fr))] gap-3">
+    @for (i of skeletonRows; track i) {
+      <div class="card space-y-3 p-4">
+        <div class="skeleton h-3.5 w-1/2"></div>
+        <div class="skeleton h-3 w-2/3"></div>
+        <div class="skeleton h-2.5 w-2/5"></div>
+      </div>
+    }
+  </div>
+} @else if (flightPlansService.error()) {
+  <p class="banner banner-error">{{ flightPlansService.error() }}</p>
+} @else if (flightPlansService.flightPlans().length === 0) {
+  <div class="empty-state">
+    <p class="font-semibold text-slate-700">No flight plans match your search.</p>
+    <p class="mb-0">Try a different callsign, carrier, or clear the type filter.</p>
+  </div>
+} @else {
+  <p class="mb-3 text-sm text-slate-500">
+    {{ flightPlansService.flightPlans().length }} flight plan{{
+      flightPlansService.flightPlans().length === 1 ? '' : 's'
+    }}
+  </p>
+  <div class="grid grid-cols-[repeat(auto-fill,minmax(240px,1fr))] gap-3">
+    @for (fp of flightPlansService.flightPlans(); track fp.id) {
+      <app-flight-plan-card [flightPlan]="fp" (select)="onSelect($event)" />
+    }
+  </div>
+}

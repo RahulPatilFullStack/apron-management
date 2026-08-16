@@ -1,0 +1,117 @@
+@import 'tailwindcss';
+
+/* Brand tokens on top of Tailwind's default palette. Everything else in
+   the app is styled with Tailwind's built-in scale (slate for neutrals,
+   blue/emerald/violet/amber for flight-plan-type badges) — these two are
+   the only colors specific to this product: a dark ops-console chrome and
+   a single safety-orange accent for primary actions. */
+@theme {
+  --color-navy: #0b1b33;
+  --color-navy-light: #16294a;
+
+  --color-safety: #c2410c;
+  --color-safety-hover: #9a3412;
+  --color-safety-surface: #fff3ec;
+  --color-safety-border: #fdba8c;
+
+  --font-sans:
+    'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+  --font-mono: 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace;
+}
+
+@layer base {
+  body {
+    @apply bg-slate-50 text-slate-900 antialiased;
+    font-family: var(--font-sans);
+    font-size: 14px;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4 {
+    @apply font-semibold tracking-tight;
+  }
+
+  ::selection {
+    @apply bg-blue-200;
+  }
+
+  /* One slim, consistent focus ring for every interactive element. */
+  :focus-visible {
+    @apply outline-2 outline-offset-1 outline-blue-600;
+  }
+}
+
+@layer components {
+  .btn {
+    @apply inline-flex items-center justify-center gap-2 rounded-md border border-slate-300
+      bg-white px-3.5 py-2 font-medium text-slate-900 transition
+      hover:bg-slate-50 disabled:cursor-not-allowed disabled:opacity-55;
+  }
+
+  .btn-primary {
+    @apply border-safety bg-safety text-white hover:border-safety-hover hover:bg-safety-hover;
+  }
+
+  .field {
+    @apply flex flex-col gap-1;
+  }
+
+  .field-label {
+    @apply text-xs font-semibold tracking-wide text-slate-600 uppercase;
+  }
+
+  .input {
+    @apply w-full rounded-md border border-slate-300 bg-white px-3 py-2 text-slate-900
+      outline-none transition placeholder:text-slate-400 focus:border-blue-600;
+  }
+
+  .card {
+    @apply rounded-xl border border-slate-200 bg-white shadow-sm;
+  }
+
+  .badge {
+    @apply inline-flex items-center rounded-full px-2.5 py-0.5 text-xs font-semibold whitespace-nowrap;
+  }
+
+  .badge-arrival {
+    @apply bg-emerald-50 text-emerald-700;
+  }
+
+  .badge-departure {
+    @apply bg-blue-50 text-blue-700;
+  }
+
+  .badge-towin {
+    @apply bg-violet-50 text-violet-700;
+  }
+
+  .badge-towout {
+    @apply bg-amber-50 text-amber-800;
+  }
+
+  .badge-default {
+    @apply bg-slate-100 text-slate-600;
+  }
+
+  .banner {
+    @apply flex items-center gap-2 rounded-md border px-4 py-3 text-sm;
+  }
+
+  .banner-error {
+    @apply border-red-200 bg-red-50 text-red-700;
+  }
+
+  .banner-success {
+    @apply border-emerald-200 bg-emerald-50 text-emerald-700;
+  }
+
+  .empty-state {
+    @apply rounded-xl border border-dashed border-slate-300 px-4 py-10 text-center text-slate-500;
+  }
+
+  .skeleton {
+    @apply animate-pulse rounded-md bg-slate-200;
+  }
+}

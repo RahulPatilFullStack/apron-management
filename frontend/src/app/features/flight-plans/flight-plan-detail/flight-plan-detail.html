@@ -1,0 +1,128 @@
+<a
+  class="inline-flex items-center gap-1 text-sm font-medium text-slate-500 no-underline hover:text-slate-900"
+  routerLink="/flight-plans"
+>
+  <svg viewBox="0 0 24 24" width="14" height="14" aria-hidden="true">
+    <path
+      d="M20 12H5m0 0 6-6m-6 6 6 6"
+      fill="none"
+      stroke="currentColor"
+      stroke-width="1.8"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+    />
+  </svg>
+  Back to search
+</a>
+
+@if (flightPlansService.linkedLoading()) {
+  <div class="skeleton mt-4 h-56"></div>
+} @else if (flightPlansService.selectedFlightPlan(); as fp) {
+  <div class="mt-4 grid items-start gap-5 lg:grid-cols-[1fr_340px]">
+    <section class="card p-5">
+      <header class="mb-4 flex items-start justify-between gap-3 border-b border-slate-200 pb-4">
+        <div>
+          <h1 class="text-[1.3rem]">
+            {{ fp.calculatedCallsign || (fp.carrier ?? '') + (fp.flightNumber ?? '') }}
+          </h1>
+          <div class="font-mono text-sm text-slate-500">
+            {{ fp.adep }} <span aria-hidden="true">&rarr;</span> {{ fp.ades }}
+          </div>
+        </div>
+        <span class="badge" [class]="typeBadgeClass(fp.flightPlanType)">{{ fp.flightPlanType }}</span>
+      </header>
+
+      <dl class="grid grid-cols-[max-content_1fr] gap-x-5 gap-y-2">
+        <dt class="pt-[0.15rem] text-xs font-bold tracking-wide text-slate-400 uppercase">Action</dt>
+        <dd class="m-0">{{ fp.flightPlanAction || '—' }}</dd>
+
+        <dt class="pt-[0.15rem] text-xs font-bold tracking-wide text-slate-400 uppercase">Origin date</dt>
+        <dd class="m-0">{{ fp.originDate }}</dd>
+
+        <dt class="pt-[0.15rem] text-xs font-bold tracking-wide text-slate-400 uppercase">Aircraft</dt>
+        <dd class="m-0">{{ fp.aircraftType || '—' }} ({{ fp.aircraftRegistration || '—' }})</dd>
+
+        <dt class="pt-[0.15rem] text-xs font-bold tracking-wide text-slate-400 uppercase">
+          Stand / apron / terminal
+        </dt>
+        <dd class="m-0">{{ fp.stand || '—' }} / {{ fp.apron || '—' }} / {{ fp.terminal || '—' }}</dd>
+
+        <dt class="pt-[0.15rem] text-xs font-bold tracking-wide text-slate-400 uppercase">STA / STD</dt>
+        <dd class="m-0">
+          {{ fp.sta ? (fp.sta | date: 'medium') : '—' }} / {{ fp.std ? (fp.std | date: 'medium') : '—' }}
+        </dd>
+
+        <dt class="pt-[0.15rem] text-xs font-bold tracking-wide text-slate-400 uppercase">AIBT / AOBT</dt>
+        <dd class="m-0">
+          {{ fp.aibt ? (fp.aibt | date: 'medium') : '—' }} / {{ fp.aobt ? (fp.aobt | date: 'medium') : '—' }}
+        </dd>
+      </dl>
+
+      @if (assignmentsFor(fp.id).length > 0) {
+        <h3 class="mt-5 mb-3 text-sm font-semibold tracking-wide text-slate-600 uppercase">Stand assignments</h3>
+        <ul class="flex flex-col gap-2">
+          @for (assignment of assignmentsFor(fp.id); track assignment.id) {
+            <li class="flex flex-wrap items-center gap-2 rounded-md border border-blue-200 bg-blue-50 px-3 py-2 text-sm">
+              <span class="font-mono font-bold">{{ assignment.standId }}</span>
+              <span class="text-slate-600">
+                {{ assignment.fromTime | date: 'short' }} &ndash; {{ assignment.toTime | date: 'short' }}
+              </span>
+              @if (assignment.remarks) {
+                <span class="text-slate-500 italic">{{ assignment.remarks }}</span>
+              }
+            </li>
+          }
+        </ul>
+      }
+    </section>
+
+    <aside class="card p-5">
+      <h2 class="mb-3 text-sm font-semibold tracking-wide text-slate-600 uppercase">Linked flight plans</h2>
+      @if (flightPlansService.linkedFlightPlans().length <= 1) {
+        <p class="m-0 text-sm text-slate-500">No other flight plans are linked to this one.</p>
+      } @else {
+        <ul class="flex flex-col gap-3">
+          @for (linked of flightPlansService.linkedFlightPlans(); track linked.id) {
+            <li
+              class="rounded-md border border-slate-200 p-3"
+              [class.bg-blue-50]="linked.id === fp.id"
+              [class.border-blue-200]="linked.id === fp.id"
+            >
+              <div class="mb-2 flex items-center justify-between">
+                <span class="badge" [class]="typeBadgeClass(linked.flightPlanType)">{{ linked.flightPlanType }}</span>
+                @if (linked.id === fp.id) {
+                  <span class="text-[0.68rem] font-bold tracking-wide text-blue-600 uppercase">viewing</span>
+                }
+              </div>
+              <div class="mb-1 font-mono text-sm">{{ linked.adep }} &rarr; {{ linked.ades }}</div>
+              <div class="flex flex-wrap gap-2 text-xs text-slate-500">
+                @if (linked.sta) {
+                  <span>STA {{ linked.sta | date: 'short' }}</span>
+                }
+                @if (linked.std) {
+                  <span>STD {{ linked.std | date: 'short' }}</span>
+                }
+                @if (linked.stand) {
+                  <span>Stand {{ linked.stand }}</span>
+                }
+              </div>
+              @if (assignmentsFor(linked.id).length > 0) {
+                <ul class="mt-2 border-t border-dashed border-slate-300 pt-2 text-xs text-slate-600">
+                  @for (assignment of assignmentsFor(linked.id); track assignment.id) {
+                    <li>
+                      {{ assignment.standId }} &middot; {{ assignment.fromTime | date: 'short' }}
+                      &ndash; {{ assignment.toTime | date: 'short' }}
+                      @if (assignment.remarks) {
+                        &middot; {{ assignment.remarks }}
+                      }
+                    </li>
+                  }
+                </ul>
+              }
+            </li>
+          }
+        </ul>
+      }
+    </aside>
+  </div>
+}
